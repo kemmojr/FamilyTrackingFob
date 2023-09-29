@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyTrackingFob", "FamilyTrackingFob.csproj", "{4AEF407A-8FEE-4CE6-9D32-601C29B2A736}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FamilyTrackingFob", "FamilyTrackingFob.csproj", "{4AEF407A-8FEE-4CE6-9D32-601C29B2A736}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{FF09C882-9F3F-485B-9AA8-62D3F10AC84D}"
+	ProjectSection(SolutionItems) = preProject
+		DB.cs = DB.cs
+		Packet.cs = Packet.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
